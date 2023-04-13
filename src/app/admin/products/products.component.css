@@ -1,0 +1,54 @@
+ /* .pagination {
+     .page-item {
+        display: inline;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px;
+         ::ng-deep.active {
+             background-color: blue;
+         }
+     }
+ } */
+
+ .page-item {
+     display: inline;
+     padding: 2px;
+ }
+
+ /* .page-item .active {
+     background-color: blue;
+ } */
+
+ a {
+     text-decoration: none;
+     display: inline-block;
+     padding: 8px 16px;
+     border: 1px solid black;
+ }
+
+ a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+
+ .previous {
+     background-color: #f1f1f1;
+     color: black;
+ }
+
+ .next {
+    background-color: #f1f1f1;
+    color: black;
+ }
+
+ .round {
+     border-radius: 50%;
+ }
+
+ .next:hover{
+    background-color: #04AA6D;
+ }
+
+ .previous:hover{
+    background-color: #04AA6D;
+ }
